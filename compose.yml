@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bot:
+    image: python:3.12-alpine
+    container_name: lazy_lake_helper_bot
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["python", "src/bot.py"]
