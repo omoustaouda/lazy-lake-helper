@@ -1,5 +1,5 @@
 import logging
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 from src.handlers import start, handle_message
 from src.scheduler import setup_scheduler
 from config.config import Config
