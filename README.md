@@ -1,6 +1,6 @@
 # Lazy Lake Community Helper
 
-A bot to help with reminders and task management for the Lazy Lake community.
+A Telegram bot that helps households and communities to coordinate around recurrent tasks and reminders.
 
 ### Note:
 I'm doing this little project to refresh my Python skills (it has been years since I didn't create something with python!).
